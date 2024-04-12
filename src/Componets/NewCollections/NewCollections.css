@@ -1,27 +1,27 @@
-.newcollections{
+.new-collections{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
    margin-bottom: 100px;
 }
-.newcollections h1{
-    color: #171717;
+.new-collections h1{
+    color: #1a1717;
     font-size: 50px;
     font-weight: 600;  
-    margin-top: 0px;
-    margin-left: 250px;
+    margin-top: 1px;
+    margin-left: 30px;
 }
-.newcollections hr{
-    width: 200px;
-    height: 6px;
+.new-collections hr{
+    width: 800px;
+    height: 5px;
     border-radius: 10px;
-    background: #252525;
+    background: #d71b1b;
 }
 .collections{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin-top: 50px;
+   margin-top: 1px;
    gap: 30px;
-   margin-left: 30px;
+   margin-left: 1px;
 }
