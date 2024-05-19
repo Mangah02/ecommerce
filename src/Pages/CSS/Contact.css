@@ -1,0 +1,27 @@
+.contact{
+    height: 50vh;
+    background: linear-gradient(90deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+}
+.contact-address{
+    align-items: center;
+}
+.contact-address p{
+    color: lightgreen;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.contact-info p{
+    color: blue;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.contact-info h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 200px;
+}

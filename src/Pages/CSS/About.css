@@ -1,0 +1,20 @@
+.about{
+    height: 50vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-title{
+    display: flex;
+    flex-direction: column; 
+}
+.about p{
+    margin-left: 50px;
+}
+.about-title h2{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'poppins';
+    color: red;
+}

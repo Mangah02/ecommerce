@@ -1,9 +1,10 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../Assets/logo_big.png'
+import footer_logo from '../Assets/logo_big1.png'
 import instagram_icon from '../Assets/instagram_icon.png'
-import pintester_icon from '../Assets/pintester_icon.png'
-import whatsapp_icon from '../Assets/whatsapp_icon.png'
+import linkln_icon from '../Assets/linkln.png'
+import fb_icon from '../Assets/facebook.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -13,21 +14,28 @@ const Footer = () => {
         <p>Njiku Fashion</p>
       </div>
       <ul className="footer-links">
-        <li>Company</li>
-        <li>Products</li>
-        <li>Offices</li>
-        <li>About</li>
-        <li>Contact</li>
+        
+        
+        
+        <Link to='/About'><li>About</li></Link>
+        <Link to='/Contact'><li>Contact</li></Link>
       </ul>
       <div className="footer-social-icon">
+      <h1>Follow us</h1>
         <div className="footer-icons-container">
+          <a href="https://www.instagram.com/juniah_002/">
             <img src={instagram_icon} alt="instagram icon missing" />
+            </a>
             </div>
             <div className="footer-icons-container">
-            <img src={pintester_icon} alt="pinteter icon missing" />
+              <a href="https://www.linkedin.com/in/joel-manga-68698311b/">
+            <img src={linkln_icon} alt="linkln icon missing" />
+            </a>
             </div>
             <div className="footer-icons-container">
-            <img src={whatsapp_icon} alt="whtatsapp icon missing" />
+              <a href="https://web.facebook.com/joel.ngunjiri.9">
+            <img src={fb_icon} alt="fb missing" />
+            </a>
         </div>
       </div>
       <div className="footer-copyright">

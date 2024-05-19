@@ -1,8 +1,8 @@
 import React, { useContext, useRef, useState } from 'react'
 import './Navbar.css' 
 
-import logo from '../Assets/logo.png'
-import cart_icon from '../Assets/cart_icon.png'
+import logo from '../Assets/logo2.png'
+import cart_icon from '../Assets/cart_icon1.png'
 import { Link } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
 import nav_dropdown from '../Assets/dropdown_icon.png'
@@ -21,7 +21,7 @@ const dropdown_toggle = (e) =>{
   return (
     <div className='navbar'>
       <div div className="nav-logo">  
-        <img src={logo} alt="logo picture"/>
+        <img src={logo} alt="missing"/>
         <p>Njiku Fashion</p>
       </div >
       <img className='nav-dropdown' onclick={dropdown_toggle} src={nav_dropdown} alt="" />
